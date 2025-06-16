@@ -1,8 +1,12 @@
 {
     "id": "lofi",
-    "mount": "/lofi.mp3",
-    "playlist": "audio/lofi/playlist.m3u",
+    "name": "Lofi Beats",
+    "playlist": [
+        "audio/lofi/fallback.mp3",
+        "audio/lofi/Marathon - CodeRace.mp3"
+    ],
     "fallback": "audio/lofi/fallback.mp3",
-    "enable_live": true,
-    "crossfade": 3.0
+    "enable_live": false,
+    "crossfade": 0.0,
+    "mount": "lofi"
 }

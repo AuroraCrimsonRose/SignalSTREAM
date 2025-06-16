@@ -17,3 +17,8 @@ target/
 #.idea/
 /.vscode
 *.code-workspace
+audio/lofi/Marathon - CodeRace.mp3
+audio/lofi/fallback.mp3
+Cargo.lock
+readme.zip
+audio.zip

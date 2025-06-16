@@ -24,6 +24,8 @@ THE SOFTWARE.
 
 The name “SignalSTREAM” and associated branding are trademarks of CATALYSTS LABS.
 
-While this software is licensed under the MIT License, redistribution of modified
-versions under the name “SignalSTREAM” or in public repositories is not permitted
-without explicit permission. See TRADEMARK.md for more details.
+While modification of this software is permitted under the MIT License,  
+redistribution — including public forks, uploads to hosting platforms (e.g., GitHub, GitLab),  
+or rebranding of the core code — is prohibited without written permission.
+
+See TRADEMARK.md for more information.

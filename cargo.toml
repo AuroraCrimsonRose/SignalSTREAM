@@ -1,0 +1,42 @@
+[package]
+name = "signalstream"
+version = "0.1.0"
+edition = "2021"
+authors = ["Aurora Rosabella <aurora@catalystslabs.com>"]
+license = "MIT"
+description = "Modular, multithreaded Rust-based audio streaming engine by CATALYSTS LABS"
+repository = "https://github.com/catalystslabs/signalstream"
+
+[dependencies]
+# Core async runtime
+tokio = { version = "1.38", features = ["full"] }
+tokio-stream = { version = "0.1", features = ["sync"] }
+futures-util = "0.3"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+tracing-appender = "0.2"
+
+# File & config handling
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# HTTP & WebSocket (Warp-based)
+warp = "0.3"
+tokio-util = "0.7"
+futures = "0.3"
+
+# Station IDs, internal map keys
+uuid = { version = "1", features = ["v4"] }
+
+# For shared global state
+once_cell = "1.19"
+
+# Optional utilities
+thiserror = "1.0"
+chrono = "0.4"
+
+[features]
+default = []
+signalframe = []

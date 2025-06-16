@@ -1,0 +1,501 @@
+[2m2025-06-16T10:40:43.386362Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T10:40:43.386428Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T10:40:43.390346Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T10:40:43.390388Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:40:43.390438Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:40:43.390455Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T10:40:43.390466Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:40:43.390482Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:40:43.390645Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T10:40:43.390679Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:40:43.390718Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:40:43.390736Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:40:43.390759Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:40:58.285016Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:40:58.285039Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:41:04.062765Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16375 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 53.3µs    
+[2m2025-06-16T10:41:04.097673Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16376 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 50.5µs    
+[2m2025-06-16T10:41:08.263370Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16380 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 38.8µs    
+[2m2025-06-16T10:41:13.064535Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16380 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 78.6µs    
+[2m2025-06-16T10:41:13.190427Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16385 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 54.9µs    
+[2m2025-06-16T10:42:01.768699Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16410 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 38.2µs    
+[2m2025-06-16T10:42:01.799103Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16411 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 123.2µs    
+[2m2025-06-16T10:42:02.035813Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16414 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 59.8µs    
+[2m2025-06-16T10:42:02.330347Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16416 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 37.6µs    
+[2m2025-06-16T10:42:43.966513Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:42:43.966513Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:42:58.984674Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:42:58.984674Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:43:33.194789Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T10:43:33.194901Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T10:43:33.198989Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T10:43:33.199045Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:43:33.199110Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:43:33.199130Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T10:43:33.199145Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:43:33.199160Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:43:33.199381Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T10:43:33.199582Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:43:33.199596Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:43:33.199635Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:43:33.199638Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:43:34.692533Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16462 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 76.8µs    
+[2m2025-06-16T10:43:34.720614Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16463 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 56.3µs    
+[2m2025-06-16T10:43:48.056899Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:43:48.056915Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:43:59.621518Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16464 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 50.9µs    
+[2m2025-06-16T10:44:00.647751Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16475 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 44.2µs    
+[2m2025-06-16T10:44:00.679062Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16476 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 73.9µs    
+[2m2025-06-16T10:46:44.235848Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T10:46:44.235937Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T10:46:44.240280Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T10:46:44.240344Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:46:44.240404Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:46:44.240424Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T10:46:44.240440Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:46:44.240458Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:46:44.240671Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T10:46:44.240909Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:46:44.240935Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:46:44.240974Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:46:44.240976Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:46:47.277929Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16558 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 80.6µs    
+[2m2025-06-16T10:46:47.315784Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16559 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 68.3µs    
+[2m2025-06-16T10:46:55.042949Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16563 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 71.3µs    
+[2m2025-06-16T10:46:55.350274Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16565 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 49.1µs    
+[2m2025-06-16T10:46:59.120045Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:46:59.120057Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:47:20.992601Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16576 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 45µs    
+[2m2025-06-16T10:47:21.033204Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16577 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 91.4µs    
+[2m2025-06-16T10:48:01.827615Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16579 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 59.7µs    
+[2m2025-06-16T10:48:02.282685Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16623 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 41.4µs    
+[2m2025-06-16T10:48:02.321935Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16624 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 88.7µs    
+[2m2025-06-16T10:48:44.418902Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:48:44.418895Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:48:59.431024Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:48:59.431024Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:49:26.689077Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16712 "GET /lofi.mp3 HTTP/1.1" 200 "-" "VLC/3.0.21 LibVLC/3.0.21" 60.6µs    
+[2m2025-06-16T10:50:49.793195Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T10:50:49.793300Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T10:50:49.797979Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T10:50:49.798043Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:50:49.798116Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:50:49.798138Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T10:50:49.798159Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:50:49.798197Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:50:49.798346Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T10:50:49.798452Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:50:49.798502Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:50:49.798629Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:50:49.798655Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:50:51.595164Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16827 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 78.7µs    
+[2m2025-06-16T10:50:51.639784Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16828 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 50.8µs    
+[2m2025-06-16T10:50:54.717175Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16832 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 49.2µs    
+[2m2025-06-16T10:50:54.792058Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16832 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 62.1µs    
+[2m2025-06-16T10:50:59.076699Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16844 "GET /favicon.ico HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 54.1µs    
+[2m2025-06-16T10:51:04.727757Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:51:04.727758Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:51:08.818380Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16844 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 53.7µs    
+[2m2025-06-16T10:51:08.879997Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16845 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 63µs    
+[2m2025-06-16T10:51:18.545557Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16866 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 43.2µs    
+[2m2025-06-16T10:51:18.794593Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:16868 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 49.5µs    
+[2m2025-06-16T10:52:51.147078Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:52:51.178021Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:53:06.016475Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:53:06.047940Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:54:52.812973Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:54:52.843944Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:55:07.784729Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:55:07.817442Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:55:54.472709Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T10:55:54.472817Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T10:55:54.476935Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T10:55:54.476988Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:55:54.477061Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:55:54.477082Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T10:55:54.477103Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T10:55:54.477123Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T10:55:54.477250Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T10:55:54.477324Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:55:54.477368Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:55:54.477477Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T10:55:54.477499Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:55:55.435104Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17292 "GET /lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 213.9µs    
+[2m2025-06-16T10:55:55.496223Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17293 "GET /lofi HTTP/1.1" 200 "http://localhost:9090/lofi" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 88.1µs    
+[2m2025-06-16T10:55:59.418450Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17295 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 38.2µs    
+[2m2025-06-16T10:55:59.486736Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17295 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 52.8µs    
+[2m2025-06-16T10:56:09.401710Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:56:09.401721Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:56:20.703432Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17329 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 45.9µs    
+[2m2025-06-16T10:56:20.800416Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17330 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 121.3µs    
+[2m2025-06-16T10:56:38.990156Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17331 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 53.7µs    
+[2m2025-06-16T10:56:39.305221Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17349 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 44.8µs    
+[2m2025-06-16T10:56:44.244540Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17356 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 45.2µs    
+[2m2025-06-16T10:56:44.290231Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17357 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 62.9µs    
+[2m2025-06-16T10:56:44.602802Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17361 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 58.2µs    
+[2m2025-06-16T10:56:44.728382Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17363 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 46.4µs    
+[2m2025-06-16T10:56:47.554003Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17364 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 87.6µs    
+[2m2025-06-16T10:56:47.615540Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17364 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 66.5µs    
+[2m2025-06-16T10:56:49.723602Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17365 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 42.4µs    
+[2m2025-06-16T10:56:49.769324Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17365 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 56.9µs    
+[2m2025-06-16T10:56:50.223521Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17371 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 24.1µs    
+[2m2025-06-16T10:56:50.268495Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17371 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 56.2µs    
+[2m2025-06-16T10:56:50.690073Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17374 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 25.9µs    
+[2m2025-06-16T10:56:50.731057Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17374 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 58.5µs    
+[2m2025-06-16T10:56:55.022403Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17380 "GET /favicon.ico HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 55.3µs    
+[2m2025-06-16T10:57:54.515899Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:57:54.515907Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:58:09.394071Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:58:09.394071Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T10:59:56.328681Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T10:59:56.391007Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:00:08.257075Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:00:08.257180Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:00:08.261293Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:00:08.261345Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:00:08.261415Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:00:08.261436Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:00:08.261457Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:00:08.261477Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:00:08.261631Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T11:00:08.261789Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:00:08.261866Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:00:08.261902Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:00:08.261924Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:00:08.467969Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17765 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 55.9µs    
+[2m2025-06-16T11:00:08.514715Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17765 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 74.1µs    
+[2m2025-06-16T11:00:12.507650Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17766 "GET /favicon.ico HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 57.9µs    
+[2m2025-06-16T11:00:23.145156Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:00:23.145151Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:02:09.637000Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:02:09.698743Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:02:24.595723Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:02:24.656842Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:02:37.406065Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:02:37.406193Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:02:37.412446Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:02:37.412655Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:02:37.413213Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:02:37.413271Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:02:37.413301Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:02:37.413319Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:02:37.420083Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:02:37.420124Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:02:37.420296Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:02:37.420310Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:02:37.423146Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T11:02:38.502853Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17943 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 54.3µs    
+[2m2025-06-16T11:02:38.631173Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17943 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 75.2µs    
+[2m2025-06-16T11:02:39.107393Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17944 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 74.4µs    
+[2m2025-06-16T11:02:43.984725Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17946 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 63.2µs    
+[2m2025-06-16T11:02:44.297229Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17956 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 74.3µs    
+[2m2025-06-16T11:02:52.365489Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:02:52.396685Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:02:52.989583Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17968 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 46.2µs    
+[2m2025-06-16T11:02:53.044354Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:17969 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 164.6µs    
+[2m2025-06-16T11:06:41.496812Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:06:41.496921Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:06:41.500927Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:06:41.500966Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:06:41.501026Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:06:41.501049Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:06:41.501068Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:06:41.501086Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:06:41.501284Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T11:06:41.501412Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:06:41.501428Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:06:41.501499Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:06:41.501472Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:06:42.629391Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18211 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 68µs    
+[2m2025-06-16T11:06:42.794670Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18211 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 133.5µs    
+[2m2025-06-16T11:06:47.911851Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18212 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 75.5µs    
+[2m2025-06-16T11:06:48.226635Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18222 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 116.3µs    
+[2m2025-06-16T11:06:56.440772Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:06:56.440772Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:08:16.504753Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18311 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 52.1µs    
+[2m2025-06-16T11:08:16.556111Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18312 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 85.2µs    
+[2m2025-06-16T11:08:42.659329Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:08:42.690574Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:08:57.581093Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:08:57.642788Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:10:32.403924Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:10:32.404024Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:10:32.408496Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:10:32.408554Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:10:32.408621Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:10:32.408636Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:10:32.408653Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:10:32.408676Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:10:32.408884Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T11:10:32.408994Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:10:32.409001Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:10:32.409038Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:10:32.409079Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:10:34.093116Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18468 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 149µs    
+[2m2025-06-16T11:10:34.149108Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18469 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 63.5µs    
+[2m2025-06-16T11:10:43.036162Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18472 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 70.8µs    
+[2m2025-06-16T11:10:47.150624Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18485 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 59.1µs    
+[2m2025-06-16T11:10:47.386762Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:10:47.386953Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:10:47.464649Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18490 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 73µs    
+[2m2025-06-16T11:11:45.534619Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:11:45.534724Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:11:45.539269Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:11:45.539323Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:11:45.539392Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:11:45.539417Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:11:45.539434Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:11:45.539448Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:11:45.539660Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T11:11:45.539705Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:11:45.539710Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:11:45.539752Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:11:45.539751Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:11:49.701317Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18562 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 89.3µs    
+[2m2025-06-16T11:11:49.858216Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18562 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 123.8µs    
+[2m2025-06-16T11:12:00.496755Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:12:00.496778Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:13:49.815812Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:13:49.815925Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:13:49.821365Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:13:49.821448Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:13:49.821565Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:13:49.821612Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:13:49.821638Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi] on mountpoint /lofi.mp3
+[2m2025-06-16T11:13:49.821759Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] router task launched
+[2m2025-06-16T11:13:49.822210Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:13:49.822235Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:13:49.822256Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:13:49.822256Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:13:49.822424Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T11:13:52.157436Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18697 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 54.7µs    
+[2m2025-06-16T11:13:53.865273Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:18697 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 119µs    
+[2m2025-06-16T11:14:04.726401Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:14:04.726416Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:15:51.607492Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:15:51.607516Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:16:06.592019Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:16:06.592014Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:17:52.458906Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:17:52.520778Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:18:07.364474Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:18:07.426103Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:19:53.546108Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:19:53.608439Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:20:08.556404Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:20:08.620195Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:21:55.268861Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:21:55.299236Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:23:28.545236Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:23:28.545344Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:23:28.549974Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:23:28.550040Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:23:28.550388Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:23:28.550437Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:26:48.345348Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:26:48.345553Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:26:48.350333Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:26:48.350392Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:26:48.350692Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:26:48.350729Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:28:06.512199Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:28:06.512276Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:28:06.516423Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:28:06.516485Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:28:06.516738Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:28:06.516776Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:31:41.862250Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:31:41.862353Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:31:41.866450Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:31:41.866499Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:31:41.866806Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:31:41.866849Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:31:41.873023Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:31:41.873120Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:31:41.873272Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:31:41.873308Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:31:41.877505Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T11:31:41.963139Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20036 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 223.2µs    
+[2m2025-06-16T11:31:41.963142Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20034 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 261.5µs    
+[2m2025-06-16T11:31:41.963123Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20035 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 229.3µs    
+[2m2025-06-16T11:31:41.963152Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20033 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 272.4µs    
+[2m2025-06-16T11:31:42.022230Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20037 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 54µs    
+[2m2025-06-16T11:31:42.022230Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20039 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 56.7µs    
+[2m2025-06-16T11:31:42.022237Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20038 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 55.5µs    
+[2m2025-06-16T11:31:42.022314Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20040 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 61.6µs    
+[2m2025-06-16T11:31:42.651189Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20045 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 53.2µs    
+[2m2025-06-16T11:31:47.845315Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20045 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 67µs    
+[2m2025-06-16T11:31:49.054629Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20045 "GET /hls/lofi/index.m3u8 HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 22.8629ms    
+[2m2025-06-16T11:31:55.221867Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20045 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 499.4µs    
+[2m2025-06-16T11:31:55.729558Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20045 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 365.5µs    
+[2m2025-06-16T11:31:56.235711Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20045 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 262.8µs    
+[2m2025-06-16T11:31:56.755841Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:20045 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 410.5µs    
+[2m2025-06-16T11:31:56.877541Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:31:56.877541Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:33:43.040016Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:33:43.070800Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:33:58.206843Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:33:58.206843Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:51:18.343302Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:51:18.343394Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:51:18.347665Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:51:18.347739Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:51:18.348083Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:51:18.348121Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:51:18.354106Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:51:18.354215Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:51:18.354385Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:51:18.354405Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:51:18.358571Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m Listening on http://127.0.0.1:9090
+[2m2025-06-16T11:51:18.384882Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21230 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 166µs    
+[2m2025-06-16T11:51:18.389498Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21231 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 59.5µs    
+[2m2025-06-16T11:51:18.389906Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21232 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 40µs    
+[2m2025-06-16T11:51:18.396764Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21233 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 72.8µs    
+[2m2025-06-16T11:51:18.419106Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21234 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 74µs    
+[2m2025-06-16T11:51:18.419151Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21235 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 46.6µs    
+[2m2025-06-16T11:51:18.419205Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21237 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 44.5µs    
+[2m2025-06-16T11:51:18.433394Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21236 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 63.7µs    
+[2m2025-06-16T11:51:20.455385Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21250 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 22.6µs    
+[2m2025-06-16T11:51:28.383356Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21250 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 1.2091ms    
+[2m2025-06-16T11:51:28.891071Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21250 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 383.7µs    
+[2m2025-06-16T11:51:29.404037Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21250 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 392µs    
+[2m2025-06-16T11:51:29.919016Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21250 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 492.1µs    
+[2m2025-06-16T11:51:33.277450Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:51:33.277450Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:52:13.332304Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21250 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 72.2µs    
+[2m2025-06-16T11:52:18.436177Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21251 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 573.9µs    
+[2m2025-06-16T11:52:18.968704Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21251 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 393.1µs    
+[2m2025-06-16T11:52:19.495169Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21251 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 400µs    
+[2m2025-06-16T11:52:20.003645Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21251 "GET /dash/lofi/manifest.mpd HTTP/1.1" 405 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 380.7µs    
+[2m2025-06-16T11:53:19.939274Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:53:19.970364Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:53:35.021424Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:53:35.052612Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:55:14.554937Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T11:55:14.555028Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T11:55:14.559235Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Station [lofi] created
+[2m2025-06-16T11:55:14.559292Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:55:14.559636Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:55:14.559685Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:55:14.565496Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T11:55:14.565578Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Starting station [lofi]
+[2m2025-06-16T11:55:14.565753Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Playlist loaded: 2 tracks from audio/lofi
+[2m2025-06-16T11:55:14.565771Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:55:14.569784Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m Listening on http://127.0.0.1:9090
+[2m2025-06-16T11:55:14.593699Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21501 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 97.5µs    
+[2m2025-06-16T11:55:14.603625Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21502 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 43.5µs    
+[2m2025-06-16T11:55:14.605994Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21504 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 28.1µs    
+[2m2025-06-16T11:55:14.606043Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21503 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 25.3µs    
+[2m2025-06-16T11:55:15.408221Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21509 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 53.8µs    
+[2m2025-06-16T11:55:21.081782Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21509 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 724.3µs    
+[2m2025-06-16T11:55:21.597129Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21509 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 319.1µs    
+[2m2025-06-16T11:55:22.112463Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21509 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 438.3µs    
+[2m2025-06-16T11:55:22.624283Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:21509 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 446.9µs    
+[2m2025-06-16T11:55:29.462675Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:55:29.462675Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:57:15.671149Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:57:15.671150Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: fallback.mp3
+[2m2025-06-16T11:57:31.114630Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T11:57:31.114630Z[0m [32m INFO[0m [2msignalstream::route::playlist[0m[2m:[0m Now playing: Marathon - CodeRace.mp3
+[2m2025-06-16T12:14:01.779103Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:14:01.779188Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:14:01.783238Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=2808
+[2m2025-06-16T12:14:01.783288Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T12:14:01.785174Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=14956
+[2m2025-06-16T12:14:01.785311Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T12:14:01.814113Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22696 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 90µs    
+[2m2025-06-16T12:14:01.814130Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22697 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 118.5µs    
+[2m2025-06-16T12:14:04.478108Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 25.9µs    
+[2m2025-06-16T12:14:12.427419Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 634.8µs    
+[2m2025-06-16T12:14:12.933317Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 282.8µs    
+[2m2025-06-16T12:14:13.444864Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 415.6µs    
+[2m2025-06-16T12:14:13.957591Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 404.5µs    
+[2m2025-06-16T12:14:20.891240Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /lofi HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 43.1µs    
+[2m2025-06-16T12:14:21.100844Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /lofi HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 84.7µs    
+[2m2025-06-16T12:14:23.998596Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 37.7µs    
+[2m2025-06-16T12:14:24.124571Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 41.5µs    
+[2m2025-06-16T12:14:31.821731Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /status HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 42.5µs    
+[2m2025-06-16T12:14:35.054371Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /status/lofi HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 485.1µs    
+[2m2025-06-16T12:14:41.833518Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 37.2µs    
+[2m2025-06-16T12:14:42.330077Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:22710 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 36.7µs    
+[2m2025-06-16T12:26:33.090905Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:26:33.091010Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:26:33.095262Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=20472
+[2m2025-06-16T12:26:33.095341Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T12:26:33.097188Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=6732
+[2m2025-06-16T12:26:33.097399Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T12:26:33.126965Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23103 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 91.5µs    
+[2m2025-06-16T12:26:33.126961Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23102 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 102.8µs    
+[2m2025-06-16T12:26:39.226714Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /lofi HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 31.7µs    
+[2m2025-06-16T12:26:41.833323Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 30.9µs    
+[2m2025-06-16T12:26:42.109987Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /favicon.ico HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 39.8µs    
+[2m2025-06-16T12:26:43.924939Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 25.5µs    
+[2m2025-06-16T12:26:49.905013Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 635.2µs    
+[2m2025-06-16T12:26:50.410427Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 558.5µs    
+[2m2025-06-16T12:26:50.921153Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 382.3µs    
+[2m2025-06-16T12:26:51.429760Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 327.1µs    
+[2m2025-06-16T12:26:52.547661Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 382.7µs    
+[2m2025-06-16T12:26:53.065644Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 365.5µs    
+[2m2025-06-16T12:26:53.570790Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 351.3µs    
+[2m2025-06-16T12:26:54.075449Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:23130 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 377.1µs    
+[2m2025-06-16T12:41:17.082104Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:41:17.082227Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:43:54.732297Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:43:54.732410Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:44:36.333198Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:44:36.333265Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:44:36.337960Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=6732
+[2m2025-06-16T12:44:36.338020Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T12:44:36.339823Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=19568
+[2m2025-06-16T12:44:36.340004Z[0m [32m INFO[0m [2msignalstream::server::http[0m[2m:[0m HTTP server listening on http://127.0.0.1:9090
+[2m2025-06-16T12:44:36.364443Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24852 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 91.6µs    
+[2m2025-06-16T12:44:36.364686Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24853 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Lavf/62.1.100" 25µs    
+[2m2025-06-16T12:45:20.402995Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /lofi HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 27.7µs    
+[2m2025-06-16T12:45:25.949247Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 55.4µs    
+[2m2025-06-16T12:45:26.084763Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /lofi.mp3 HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 38.5µs    
+[2m2025-06-16T12:45:37.696921Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 25.9µs    
+[2m2025-06-16T12:45:38.147718Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /favicon.ico HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 65.4µs    
+[2m2025-06-16T12:45:44.796431Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 690.8µs    
+[2m2025-06-16T12:45:45.317782Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 373.5µs    
+[2m2025-06-16T12:45:45.828684Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 380.2µs    
+[2m2025-06-16T12:45:46.340309Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:24948 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 371.6µs    
+[2m2025-06-16T12:47:17.865512Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:47:17.865621Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:47:17.870448Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=19568
+[2m2025-06-16T12:47:17.870536Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T12:47:17.872787Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=20916
+[2m2025-06-16T12:47:17.900655Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25104 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 178.3µs    
+[2m2025-06-16T12:47:17.900655Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25103 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 238.9µs    
+[2m2025-06-16T12:47:24.524220Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25122 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 49.8µs    
+[2m2025-06-16T12:47:30.140703Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25122 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 630.1µs    
+[2m2025-06-16T12:47:30.647608Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25122 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 496.5µs    
+[2m2025-06-16T12:47:31.162309Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25122 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 387.4µs    
+[2m2025-06-16T12:47:31.673653Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25122 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 328.2µs    
+[2m2025-06-16T12:48:14.098028Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25122 "GET /lofi HTTP/1.1" 404 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 72.3µs    
+[2m2025-06-16T12:48:15.192746Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25122 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 65.9µs    
+[2m2025-06-16T12:48:15.648924Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25123 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 104.5µs    
+[2m2025-06-16T12:48:15.696272Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25124 "GET /lofi.mp3 HTTP/1.1" 200 "http://localhost:9090/lofi.mp3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 59.6µs    
+[2m2025-06-16T12:52:31.146907Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:52:31.147009Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:52:31.151079Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=6208
+[2m2025-06-16T12:52:31.151138Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T12:52:31.153057Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=20404
+[2m2025-06-16T12:52:31.178652Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25534 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 118.1µs    
+[2m2025-06-16T12:52:31.191803Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25535 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 60µs    
+[2m2025-06-16T12:52:31.846156Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25538 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 43.9µs    
+[2m2025-06-16T12:52:37.712532Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25538 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 441.8µs    
+[2m2025-06-16T12:52:38.220988Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25538 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 355.3µs    
+[2m2025-06-16T12:52:38.736778Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25538 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 401µs    
+[2m2025-06-16T12:52:39.248526Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25538 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 264.5µs    
+[2m2025-06-16T12:54:48.921753Z[0m [32m INFO[0m [2msignalstream::logger[0m[2m:[0m Logger initialized.
+[2m2025-06-16T12:54:48.921859Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m SignalSTREAM starting up...
+[2m2025-06-16T12:54:48.925905Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=20564
+[2m2025-06-16T12:54:48.925976Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m Started station: lofi
+[2m2025-06-16T12:54:48.927834Z[0m [32m INFO[0m [2msignalstream::station::manager[0m[2m:[0m Spawned DASH packager for station 'lofi', PID=19160
+[2m2025-06-16T12:54:48.950480Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25745 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 151.6µs    
+[2m2025-06-16T12:54:48.951860Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25746 "GET /lofi.mp3 HTTP/1.1" 200 "-" "Lavf/62.1.100" 52.7µs    
+[2m2025-06-16T12:54:51.376255Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25755 "GET / HTTP/1.1" 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 44.2µs    
+[2m2025-06-16T12:54:55.756271Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25755 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 529.8µs    
+[2m2025-06-16T12:54:56.277213Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25755 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 280.8µs    
+[2m2025-06-16T12:54:56.788525Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25755 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 395.7µs    
+[2m2025-06-16T12:54:57.301768Z[0m [32m INFO[0m [2msignalstream[0m[2m:[0m 127.0.0.1:25755 "GET /dash/lofi/manifest.mpd HTTP/1.1" 404 "http://localhost:9090/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" 420.3µs    

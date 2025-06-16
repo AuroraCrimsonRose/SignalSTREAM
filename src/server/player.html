@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SignalSTREAM DASH Player</title>
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 2em;
+        }
+
+        input,
+        button {
+            font-size: 1em;
+            margin: 0.5em 0;
+        }
+
+        audio {
+            display: block;
+            margin-top: 1em;
+            width: 100%;
+            max-width: 640px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SignalSTREAM DASH Player</h1>
+
+    <label for="station">Station ID:</label>
+    <input type="text" id="station" placeholder="e.g., lofi" />
+
+    <button id="play-dash">Play via DASH</button>
+
+    <audio id="audio-player" controls></audio>
+
+    <script>
+        const audio = document.getElementById('audio-player');
+        const stationInput = document.getElementById('station');
+        const playDashBtn = document.getElementById('play-dash');
+
+        playDashBtn.addEventListener('click', () => {
+            const id = stationInput.value.trim();
+            if (!id) { alert('Please enter a station ID'); return; }
+            const url = `/dash/${id}/manifest.mpd`;
+            if (window.dashjs) {
+                const player = dashjs.MediaPlayer().create();
+                player.initialize(audio, url, true);
+            } else {
+                alert('dash.js failed to load');
+            }
+        });
+    </script>
+</body>
+
+</html>
