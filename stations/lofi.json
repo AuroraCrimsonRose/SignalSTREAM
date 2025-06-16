@@ -1,0 +1,8 @@
+{
+    "id": "lofi",
+    "mount": "/lofi.mp3",
+    "playlist": "audio/lofi/playlist.m3u",
+    "fallback": "audio/lofi/fallback.mp3",
+    "enable_live": true,
+    "crossfade": 3.0
+}
