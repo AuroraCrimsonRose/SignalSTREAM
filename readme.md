@@ -115,6 +115,6 @@ Email: aurora@catalystslabs.com
 
 Discord: coming soon
 
-Mastodon: @catalystslabs@tech.lgbt
+Mastodon: 
 
 © 2025 CATALYSTS LABS — All rights reserved.
